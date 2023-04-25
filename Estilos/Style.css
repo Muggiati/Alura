@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  /*height: 100vh;*/
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  
+}
+
+.titulo-destaque{
+  color: aqua;
+}
+
+.cabecalho {
+padding: 2% 0 0 15%;
+}
+.cabecalho_menu{
+  display: flex;
+  gap: 80px;
+  
+}
+.menu_link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color:aqua;
+  text-decoration: none;
+}
+.Apresentacao{
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
+}
+
+.Apresentacao__conteudo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  
+}
+
+.titulo__conteudo{
+  font-size: 36px;
+  font-family: 'Krona One', sans-serif;
+}
+
+.texto__conteudo{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.link__links{
+  /* background-color: cyan; */
+  display: flex;
+  justify-content: center;
+  gap:16px;
+  width: 50%;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-family: 'Montserrat', sans-serif;
+  border:2px solid aqua;
+}
+.Apresentacao__links__subtitulo{
+  
+  font-family: 'Krona One', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.link__links:hover {
+  background-color:darkslategrey;
+}
+.apresentacao__img {
+  width: 50%;
+}
+.rodape{
+  padding: 24px;
+  color:black;
+  background-color: aqua;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  
+
+  
+}
+
+@media(max-wight: 1200px){
+  .cabecalho{padding: 10%;
+  }
+  .cabecalho_menu{
+    justify-content: center;
+  }
+  .Apresentacao{flex-direction: column-reverse;
+  padding:5%;}
+  .Apresentacao__conteudo{
+    width: auto;
+
+  }
+  
+};
